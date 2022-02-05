@@ -1,0 +1,206 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+
+ul {
+	list-style: none;
+}
+
+button,
+input,
+select {
+	margin: 0;
+}
+
+html {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+img,
+video {
+	height: auto;
+	max-width: 100%;
+}
+
+iframe {
+	border: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td,
+th {
+	padding: 0;
+}
+
+td:not([align]),
+th:not([align]) {
+	text-align: inherit;
+}
+
+html {
+	font-size: 16px;
+	text-rendering: optimizeLegibility;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	background-color: white;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+	display: block;
+}
+
+code,
+pre {
+	-moz-osx-font-smoothing: auto;
+	-webkit-font-smoothing: auto;
+	font-family: monospace;
+}
+
+/*a{
+	color: unset;
+	text-decoration: none;
+}
+
+a:visited, a:hover{
+	color: unset;
+	text-decoration: none;
+}*/
+body{
+	background-color: black;
+		
+}
+
+.box{
+	background: rgb(134, 0, 0);
+	width: 300px;
+	height: 300px;
+
+
+}
+
+.c{
+	width: 70px;
+	height: 70px; 
+	position: fixed;
+	top: 10px;
+	left: 10px;
+
+}
+html{
+	background-color: black;
+}
+.image{
+	color: black;
+	background: palevioletred;
+	width: 300px;
+	height: 300px;
+	position: fixed;
+	bottom: 10px;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+
+}
+
+.p{
+
+	font-weight: 400;
+	font-size: 500px;
+	position: fixed;
+	color: white;
+	bottom: -115px;
+	font-family: 'Playfair Display', serif;
+}
+.part{
+	position: fixed;
+	bottom: 90px;
+	left: 130px;
+	font-size: 15px;
+}
+li{
+	font-weight: 400;
+	color: white;
+	position: fixed;
+	bottom: 40px;
+	left: 350px;
+
+}
+
+.w{
+	position: fixed;
+	top: 40px;
+	right: 200px;
+	width: 500px;
+	height: 500px;
+}
+.s{
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	width: 150px;
+	height: 150px;
+}
+.video{
+	position: fixed;
+	top: 100px;
+	left: 700px;
+	width: 200px;
+	height: 200px;
+
+}
+
